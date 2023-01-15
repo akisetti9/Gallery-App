@@ -1,0 +1,28 @@
+/* Write your code here. */
+.thumbnail-image {
+  /* image-resolution: 0%; */
+  width: 10%;
+  margin: 1%;
+}
+@media screen and (max-width: 767px) {
+  .thumbnail-image {
+    width: 20%;
+    margin: 2%;
+  }
+}
+.close-img {
+  width: 100%;
+  opacity: 0.5;
+}
+.open-img {
+  width: 100%;
+  opacity: 1;
+}
+.btn {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  cursor: pointer;
+  background-color: none;
+}
